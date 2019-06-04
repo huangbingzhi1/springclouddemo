@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/service-producer/pom.xml" />
         <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/service-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consumer-hystrix-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consumer-hystrix-feign/pom.xml" />
       </list>
     </option>
   </component>

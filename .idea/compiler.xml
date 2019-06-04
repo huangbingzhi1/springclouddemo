@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-consumer" />
-        <module name="service-consumer-feign" />
+        <module name="service-consumer-hystrix-ribbon" />
         <module name="eureka-server" />
+        <module name="service-consumer-feign" />
+        <module name="service-consumer-hystrix-feign" />
+        <module name="service-consumer" />
         <module name="springclouddemo" />
         <module name="service-producer" />
       </profile>
@@ -19,6 +21,8 @@
       <module name="eureka-server" options="-parameters" />
       <module name="service-consumer" options="-parameters" />
       <module name="service-consumer-feign" options="-parameters" />
+      <module name="service-consumer-hystrix-feign" options="-parameters" />
+      <module name="service-consumer-hystrix-ribbon" options="-parameters" />
       <module name="service-producer" options="-parameters" />
     </option>
   </component>
