@@ -17,7 +17,6 @@ public class ServiceProducerApplication {
     public static void main(String[] args) {
         SpringApplication.run(ServiceProducerApplication.class, args);
     }
-
     @RequestMapping("/hi")
     public String home(@RequestParam(value = "name", defaultValue = "lbj") String name) {
         return "您好 " + name + " ,端口:" + port;

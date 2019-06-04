@@ -26,7 +26,6 @@ public class ServiceConsumerApplication {
     public static void main(String[] args) {
         SpringApplication.run(ServiceConsumerApplication.class, args);
     }
-
     @RequestMapping("hello")
     public String hello(@RequestParam(value = "name",defaultValue = "詹姆斯") String name){
         return restTemplate.getForObject("http://service-producer/hi?name="+name,String.class);
